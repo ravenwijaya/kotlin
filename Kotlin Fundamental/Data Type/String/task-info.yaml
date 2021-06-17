@@ -1,0 +1,19 @@
+type: theory
+custom_name: String
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val text  = "Kotlin"
+        val firstChar = text[0]
+
+        print("First character of $text is $firstChar")
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Thu, 17 Jun 2021 04:48:32 UTC
+record: -1
+post_submission_on_open: true
